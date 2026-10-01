@@ -1,0 +1,19 @@
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+evaluation/
+
+# Hugging Face / datasets cache
+.cache/
+huggingface/
+datasets/
+
+# Training outputs you don't want in Git
+results/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

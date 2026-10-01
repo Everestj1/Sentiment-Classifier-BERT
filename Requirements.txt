@@ -1,0 +1,21 @@
+
+REQUIREMENTS
+----------------------------------------------------
+torch
+transformers
+datasets
+scikit-learn
+accelerate
+numpy
+
+-----------------------------------------------------
+- pip install all these dependencies.
+
+- The classifier files needs to be run to train the initial model, it can further be retrianed if it needs to be tuned for more accuracy or on more data.
+
+Steps:
+------
+- Run the data.py file
+- Run the classifier.py file
+- Run the evaluate.py for evaluation (Optional)
+- Use the predict.py file to predict outcome
